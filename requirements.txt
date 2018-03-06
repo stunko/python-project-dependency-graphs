@@ -1,0 +1,3 @@
+snakefood
+networkx
+pydot
