@@ -15,8 +15,6 @@ A simple tool to detect cyclic imports in python projects.
     ('project/api.py', 'project/dbmsr.py')
     snakefood file: /tmp/tmp.tFNLIl2J55
     dot file: /tmp/tmp.YvcNtf92Rq
-
-    
 ```
 
 This builds the dependency graph of the project with [snakefood](http://furius.ca/snakefood/). Then uses that with [networkx](https://networkx.github.io/) to find cycles. The output is one tuple for each cycle it finds.
